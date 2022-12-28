@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation/widgets/Topics.dart';
 import 'package:meditation/widgets/WelcomeContainer.dart';
+import 'package:meditation/widgets/basicName_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -10,10 +11,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xfff272F40),
       body: SafeArea(
-        child: ListView(children: [
-          WelcomeContainer(),
-          Topics(),
-        ]),
+        child: ListView(children: [WelcomeContainer(), Topics(), BasicNames()]),
       ),
     );
   }

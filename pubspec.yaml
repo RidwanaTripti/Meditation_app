@@ -74,6 +74,13 @@ flutter:
     - images/yoga.png
     - images/splash.mp4
     - images/logo.json
+    - images/unsplash-1.jpg
+    - images/unsplash-4.jpg
+    - images/unsplash-5.jpg
+    - images/unsplash-7.jpg
+    - images/unsplash-8.jpg
+    - images/unsplash-9.jpg
+    - images/unsplash-6.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
